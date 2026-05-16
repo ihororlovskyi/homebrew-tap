@@ -4,7 +4,7 @@ cask "chipbar" do
 
   url "https://github.com/ihororlovskyi/chipbar/releases/download/v#{version}/Chipbar-#{version}.zip"
   name "ChipBar"
-  desc "Tiny macOS monitor for Apple Silicon chips (CPU/GPU/RAM in the menu bar)"
+  desc "Tiny menu-bar monitor for Apple Silicon chips (CPU/GPU/RAM)"
   homepage "https://github.com/ihororlovskyi/chipbar"
 
   depends_on macos: ">= :sonoma"
@@ -12,7 +12,5 @@ cask "chipbar" do
 
   app "Chipbar.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.ihororlovskyi.chipbar.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.ihororlovskyi.chipbar.plist"
 end

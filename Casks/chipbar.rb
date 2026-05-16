@@ -1,6 +1,6 @@
 cask "chipbar" do
-  version "0.1.0"
-  sha256 "2146626fa7d2d07b229f5db5bfd8cbfec23820f8cdb02f1f0f1ea5c96d12804e"
+  version "0.1.1"
+  sha256 "b806e6ea4ab8db6ab0289e8a184583f2940b82a6b87ee19f631c64bc3a74fd19"
 
   url "https://github.com/ihororlovskyi/chipbar/releases/download/v#{version}/Chipbar-#{version}.zip"
   name "ChipBar"

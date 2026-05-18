@@ -1,6 +1,6 @@
 cask "mchip" do
-  version "0.1.1"
-  sha256 "b806e6ea4ab8db6ab0289e8a184583f2940b82a6b87ee19f631c64bc3a74fd19"
+  version "0.1.2"
+  sha256 "54f9905da9f7e5e7e2f393ea31715d8fe1cbe0d7580f44181526acfb9ca25f35"
 
   url "https://github.com/ihororlovskyi/mchip/releases/download/v#{version}/Chipbar-#{version}.zip",
       quarantine: false

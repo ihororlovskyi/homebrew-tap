@@ -11,7 +11,7 @@ brew install --cask mchip
 
 ## Casks
 
-- [`mchip`](Casks/mchip.rb) — tiny macOS menu-bar monitor for Apple Silicon (CPU/GPU/RAM).
+- [`mchip`](Casks/mchip.rb) - tiny macOS menu-bar monitor for Apple Silicon (CPU/GPU/RAM).
 
 ## Releases
 
